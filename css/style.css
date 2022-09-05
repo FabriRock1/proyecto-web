@@ -747,4 +747,110 @@ button.button-mini i {
       :: Note: Design for a width of 768px
       -------------------------------------------------- */
 
-
+      @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .container {
+            width: 560px;
+        }
+    }
+    
+    /*	--------------------------------------------------
+          :: Note: Design for a width of 480px
+          -------------------------------------------------- */
+    
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .container {
+            width: 420px;
+        }
+    
+        .newsletter-multi-column .column-full,
+        .newsletter-multi-column .column-half,
+        .newsletter-multi-column .column-one-third,
+        .newsletter-multi-column .column-fouth,
+        .newsletter-multi-column .column-fifth,
+        .newsletter-multi-column .column-sixth {
+            width: 360px;
+        }
+    
+        .newsletter-form .section button {
+            float: none;
+            margin: 0 5px 0 0;
+        }
+    }
+    
+    /*	--------------------------------------------------
+          :: Note: Design for a width of 320px
+          -------------------------------------------------- */
+    
+    @media only screen and (max-width: 479px) {
+        .container {
+            width: 300px;
+        }
+    
+        .newsletter-multi-column .column-full,
+        .newsletter-multi-column .column-half,
+        .newsletter-multi-column .column-one-third,
+        .newsletter-multi-column .column-fouth,
+        .newsletter-multi-column .column-fifth,
+        .newsletter-multi-column .column-sixth {
+            width: 240px;
+        }
+    
+        .newsletter-form .section button {
+            float: none;
+            margin: 0 5px 0 0;
+        }
+    }
+    
+    .display {
+        display: flex;
+    }
+    
+    iframe {
+        border-radius: 25px;
+    
+    }
+     .info{
+        text-align: center;
+     }
+    .mapa {
+        display: flex;
+        justify-content: center;
+    }
+    .gradient{
+        width: 100px;
+        height: 25px;
+        background-image: linear-gradient(to top, #a10000, black);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        transition: all 2s;
+    }
+    
+    .gradient_{
+        height: 25px;
+        background-image: linear-gradient(to top, #a10000, black);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        transition: all 2s;
+    }
+    
+    nav ul li a{
+        width: 100px;
+        height: 25px;
+        background-image: linear-gradient(to top, #a10000, black);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin: 20px;
+        border: none;
+        border-radius: 4px;
+        transition: all 2s;
+    }
