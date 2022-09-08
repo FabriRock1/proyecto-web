@@ -1,44 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="shortcut icon" href="img/images.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Kushina-Pasteleria</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div>
-                <h1>Kushina Pasteleria</h1>
-                <a href="index.html">
-                    <img src="img/images.jpg" alt="logo de Kushina Pasteleria" class="img-logo-nav">
-                </a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand flex-reverse a-itemscenter" href="index.html">Kushina Pasteleria
+                <img src="img/logo.jpg" alt="" class="img-logo-nav">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0  ">
+                    <li class="nav-item gradient-nav ">
+                        <a class="nav-link active" aria-current="page" href="inicio.html">Home</a>
+                    </li>
+                    <li class="nav-item gradient-nav">
+                        <a class="nav-link active" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item gradient-nav">
+                        <a class="nav-link active" href="compras.html">Compras</a>
+                    </li>
+                    <li class="nav-item  gradient-nav">
+                        <a class="nav-link active" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <div class="d-flex m-s colum-reverse ">
+                    <form class="d-flex ">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-login" type="submit">Buscar</button>
+                    </form>
+                    <div class="dis-flex ">
+                        <a href="login.html"><button class="btn btn-login" type="submit">Inicias
+                                Sesion</button></a>
+                        <a href="registro.html"><button class="btn btn-login" type="submit">Registrarse</button></a>
+                    </div>
+                </div>
             </div>
-            <ul>
-                <li><a href="inicio.html">Inicio</a></li>
-
-
-                <li>
-                    <a href="productos.html">Productos</a>
-                </li>
-                <li><a href="compras.html">Cómo Comprar</a></li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-            </ul>
-            <ol>
-                <a href="login.html">Iniciar Sesion</a>
-                <a href="registro.html">Registrarse</a>
-            </ol>
-        </nav>
+        </div>
+    </nav>
+    <header class="m-20">
+        <h2>Contactanos</h2>
     </header>
     <main>
-        <h2>Contactanos</h2>
         <section class="p-clas">
             <div class="info">
                 <p>🤗✨Te esperamos de Lunes a Sabados de 10 a 13 y de 15 a 18hs ✨🤗</p>
@@ -55,64 +74,63 @@
             </div>
         </section>
         <!-- <div class="display"> -->
-            <div class="container">
-                <div class="top-form-bar">
-                    <div class="top-bar top-bar-red"></div>
-                </div>
-                <div class="newsletter-form">
-                    <div class="newsletter-multi-column">
-                        <div class="header">
-                            <div class="column-full">
-                                <h4><i class="icon-envelop-2"></i>¡Dejanos tus Dudas!</h4>
-                                <h4>(Te contestaremos a la brevedad)</h4>
-                            </div>
+        <div class="container">
+            <div class="top-form-bar">
+                <div class="top-bar top-bar-red"></div>
+            </div>
+            <div class="newsletter-form">
+                <div class="newsletter-multi-column">
+                    <div class="header">
+                        <div class="column-full">
+                            <h4><i class="icon-envelop-2"></i>¡Dejanos tus Dudas!</h4>
+                            <h4>(Te contestaremos a la brevedad)</h4>
                         </div>
-                        <div class="section">
-                            <form method="post" action="php/form.php" id="newsletter">
-                                <fieldset>
-                                    <div class="column-full">
-                                        <div id="newsletter-message"></div>
+                    </div>
+                    <div class="section">
+                        <form method="post" action="php/form.php" id="newsletter">
+                            <fieldset>
+                                <div class="column-full">
+                                    <div id="newsletter-message"></div>
+                                </div>
+                                <div class="column-full">
+                                    <div class="input-group">
+                                        <label for="firstname" name="firstname"><i class="icon-user-3"></i></label>
+                                        <input type="text" id="firstname" name="firstname" maxlength="30"
+                                            placeholder="NOMBRE">
                                     </div>
-                                    <div class="column-full">
-                                        <div class="input-group">
-                                            <label for="firstname" name="firstname"><i class="icon-user-3"></i></label>
-                                            <input type="text" id="firstname" name="firstname" maxlength="30"
-                                                placeholder="NOMBRE">
-                                        </div>
+                                </div>
+                                <div class="column-full">
+                                    <div class="input-group">
+                                        <label for="lastname" name="lastname"><i class="icon-user-3"></i></label>
+                                        <input type="text" id="lastname" name="lastname" maxlength="30"
+                                            placeholder="APELLIDO">
                                     </div>
-                                    <div class="column-full">
-                                        <div class="input-group">
-                                            <label for="lastname" name="lastname"><i class="icon-user-3"></i></label>
-                                            <input type="text" id="lastname" name="lastname" maxlength="30"
-                                                placeholder="APELLIDO">
-                                        </div>
+                                </div>
+                                <div class="column-full">
+                                    <div class="input-group">
+                                        <label for="useremail" name="useremail"><i
+                                                class="icon-envelop-opened"></i></label>
+                                        <input type="email" id="useremail" name="useremail" maxlength="70"
+                                            placeholder="EMAIL">
                                     </div>
-                                    <div class="column-full">
-                                        <div class="input-group">
-                                            <label for="useremail" name="useremail"><i
-                                                    class="icon-envelop-opened"></i></label>
-                                            <input type="email" id="useremail" name="useremail" maxlength="70"
-                                                placeholder="EMAIL">
-                                        </div>
+                                </div>
+                                <div class="column-full">
+                                    <div class="input-group">
+                                        <label for="mensaje" name="mensaje"><i class="icon-user-3"></i></label>
+                                        <input type="text" id="mensaje" name="mensaje" placeholder="DEJANOS TU MENSAJE">
                                     </div>
-                                    <div class="column-full">
-                                        <div class="input-group">
-                                            <label for="mensaje" name="mensaje"><i class="icon-user-3"></i></label>
-                                            <input type="text" id="mensaje" name="mensaje" 
-                                                placeholder="DEJANOS TU MENSAJE">
-                                        </div>
                                     <div class="column-full">
                                         <button type="reset" class="button button-small button-red">RESET</button>
                                         <button type="submit" id="send" name="send"
                                             class="button button-small button-green">ENVIAR</button>
                                         <div id="loader"></div>
                                     </div>
-                                </fieldset>
-                            </form>
-                        </div>
+                            </fieldset>
+                        </form>
                     </div>
                 </div>
             </div>
+        </div>
         <!-- </div> -->
     </main>
     <footer class="pie">
@@ -124,6 +142,9 @@
             <img src="img/icons8-instagram-90.png" alt="seguinos en instagram">
         </a>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

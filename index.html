@@ -1,101 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="shortcut icon" href="img/images.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Kushina-Pasteleria</title>
 </head>
-<body> 
-    <header>
-        <nav>
-          <div>
-              <h1>Kushina Pasteleria</h1>
-              <a href="index.html">
-                  <img src="img/images.jpg" alt="logo de Kushina Pasteleria" class="img-logo-nav">
-              </a>
-          </div>
-              <ul>
-                  <li><a href="inicio.html">Inicio</a></li>
-      
-             
-                  <li>
-                      <a href="productos.html">Productos</a>
-                  </li>
-                  <li><a href="compras.html">Cómo Comprar</a></li>
-                  <li>
-                      <a href="contacto.html">Contacto</a>
-                  </li>
-              </ul>
-              <ol>
-                  <a href="login.html">Iniciar Sesion</a>
-                  <a href="registro.html">Registrarse</a>
-              </ol>
-          </nav>
-    </header>
-    <div class="imagenes-body">
-        <img src="img/foto2.jpeg" alt="sfsfsf">
-        <img src="img/foto1.jpeg" alt="">
-        <img src="img/foto3.jpeg"  alt="">
-        <img src="img/foto4.jpeg" alt="">
-    </div>
-    <section>
-        <h2>
-            Categorias
-        </h2>
-            <ul class="list-inline">
-                <li><a href="productoss/galletitas.html" class="gradient_">GALLETITAS</a></li>
-    
-                <li>
-                    <a href="productoss/tortas.html" class="gradient_">TORTAS</a>
-                </li>
-                <li>
-                    <a href="productoss/cupcakes.html" class="gradient_">CUPCAKES</a>
-                </li>
-             
-            </ul>
-        </section> 
-        
-        <main id="productos">
-            <h2>LO MÁS VENDIDO</h2>
-            <section class="galeria">			
-                <figure>
-                    <img src="img/lo mas vendido/foto-1.jpeg" alt="">
-                    <figcaption>Galltitas de Karate-Kid</figcaption>
-                    <p class="price">$1.500,00</p>
-                </figure>
-    
-                <figure>
-                    <img src="img/lo mas vendido/foto-2.jpeg" alt="">
-                    <figcaption>Torta de Graduacion</figcaption>
-                    <p class="price">$2.000,00</p>
-                </figure>
-    
-                <figure>
-                    <img src="img/lo mas vendido/foto-3.jpeg" alt="">
-                    <figcaption>Torta de Unicornio</figcaption>
-                    <p class="price">$2.100,00</p>
-                </figure>
-    
-                <figure>
-                    <img src="img/lo mas vendido/foto-4.jpeg" alt="">
-                    <figcaption>Galletitas del Hombre Araña</figcaption>
-                    <p class="price">$2.000,00</p>
-                </figure>
-                <figure>
-                    <img src="img/lo mas vendido/foto5.jpeg" alt="">
-                    <figcaption>Galletitas de PS4</figcaption>
-                    <p class="price">$2.000,00</p>
-                </figure>
-                <figure>
-                    <img src="img/lo mas vendido/foto-6.jpeg" alt="">
-                    <figcaption>Galletitas de PlimPlim</figcaption>
-                    <p class="price">$2.000,00</p>
-                </figure>
-            </section>
 
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand flex-reverse a-itemscenter" href="index.html">Kushina Pasteleria
+                <img src="img/logo.jpg" alt="" class="img-logo-nav">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0  ">
+                    <li class="nav-item gradient-nav ">
+                        <a class="nav-link active" aria-current="page" href="inicio.html">Home</a>
+                    </li>
+                    <li class="nav-item gradient-nav">
+                        <a class="nav-link active" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item gradient-nav">
+                        <a class="nav-link active" href="compras.html">Compras</a>
+                    </li>
+                    <li class="nav-item  gradient-nav">
+                        <a class="nav-link active" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <div class="d-flex m-s colum-reverse ">
+                    <form class="d-flex ">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-login" type="submit">Buscar</button>
+                    </form>
+                    <div class="dis-flex ">
+                        <a href="login.html"><button class="btn btn-login" type="submit">Inicias
+                                Sesion</button></a>
+                        <a href="registro.html"><button class="btn btn-login" type="submit">Registrarse</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <header>
+        <div class="imagenes-body">
+            <img src="img/foto2.jpeg" alt="muestra">
+            <img src="img/foto1.jpeg" alt="muestra">
+            <img src="img/foto3.jpeg" alt="muestra">
+            <img src="img/foto4.jpeg" alt="muestra">
+        </div>
+        </div>
+    </header>
+    <div>
+        <div class="list-group ">
+            <a href="./productoss/galletitas.html" class="list-group-item list-group-item-action gradient_"
+                aria-current="true">GALLETITAS</a>
+            <a href="./productoss/cupcakes.html" class="list-group-item list-group-item-action gradient_">CUPCAKES</a>
+            <a href="./productoss/tortas.html" class="list-group-item list-group-item-action gradient_">TORTAS</a>
+        </div>
+    </div>
+    <main id="productos">
+        <h2>LO MÁS VENDIDO</h2>
+        <section class="galeria">
+            <figure>
+                <img src="img/lo mas vendido/foto-1.jpeg" alt="">
+                <figcaption>Galltitas de Karate-Kid</figcaption>
+                <p class="price">$1.500,00</p>
+            </figure>
+
+            <figure>
+                <img src="img/lo mas vendido/foto-2.jpeg" alt="">
+                <figcaption>Torta de Graduacion</figcaption>
+                <p class="price">$2.000,00</p>
+            </figure>
+
+            <figure>
+                <img src="img/lo mas vendido/foto-3.jpeg" alt="">
+                <figcaption>Torta de Unicornio</figcaption>
+                <p class="price">$2.100,00</p>
+            </figure>
+
+            <figure>
+                <img src="img/lo mas vendido/foto-4.jpeg" alt="">
+                <figcaption>Galletitas del Hombre Araña</figcaption>
+                <p class="price">$2.000,00</p>
+            </figure>
+            <figure>
+                <img src="img/lo mas vendido/foto5.jpeg" alt="">
+                <figcaption>Galletitas de PS4</figcaption>
+                <p class="price">$2.000,00</p>
+            </figure>
+            <figure>
+                <img src="img/lo mas vendido/foto-6.jpeg" alt="">
+                <figcaption>Galletitas de PlimPlim</figcaption>
+                <p class="price">$2.000,00</p>
+            </figure>
+        </section>
     </main>
     <footer class="pie">
         <h4>SEGUINOS EN NUESTRAS REDES</h4>
@@ -105,7 +119,11 @@
         <a href="https://www.instagram.com/kushina_pasteleria/">
             <img src="img/icons8-instagram-90.png" alt="seguinos en instagram">
         </a>
-    </footer>   
-    
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
+
 </html>
