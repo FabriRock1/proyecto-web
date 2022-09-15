@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400;500&display=swap');
+$mainFont:'Roboto', sans-serif;
+$secondaryFont:'Montserrat', sans-serif;
+
+//sizings
+$textMd:1.3em;
+$textLg:1.8em;
+$textSm:0.8em;
+
+//weights
+$textBold:600;
+$textRegular:400;
+$textThin:200;
+
+//clases para textos
+.textDestacado{
+	background-color: $mainColor;
+}
+
+.textBold{
+	font-weight: $textBold;
+}
+
+.textCenter{
+	text-align: center;
+}
+
+.textRight{
+	text-align: right;
+}
+
+.textLeft{
+	text-align: left;
+}

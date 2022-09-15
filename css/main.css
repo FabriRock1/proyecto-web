@@ -1,0 +1,686 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400;500&display=swap");
+body {
+  /* background-image: url(../img/fondo__.jpg);  */
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-color: #f7f6f5;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: rgb(88, 0, 0);
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  color: rgb(88, 0, 0);
+  font-size: 1rem;
+  text-align: center;
+  background-color: rgba(167, 164, 164, 0.103);
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  color: rgb(88, 0, 0);
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+h4 {
+  color: rgb(88, 0, 0);
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bg-nav {
+  background-color: #faecdb;
+}
+
+.p-clas {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #b10808;
+}
+
+.main-ajuste {
+  padding: 30px;
+  margin: 35px;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+.img-logo-nav {
+  width: 100px;
+  height: auto;
+  padding: 14px;
+  border-radius: 100px;
+}
+
+.imagenes-body {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.a-itemscenter {
+  align-items: center;
+}
+
+.flex-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.display {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gradient_ {
+  background-image: linear-gradient(to top, #a10000, black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 4px;
+  transition: all 2s;
+  margin-top: 10px;
+}
+
+.gradient-nav {
+  height: 20px;
+  background-image: linear-gradient(to top, #a03737, rgb(199, 101, 101));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 20px;
+  border-radius: 5px;
+  transition: all 2s;
+  padding: 20px;
+}
+
+.dis-flex {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 5px;
+}
+
+.btn-login {
+  color: #770e0a;
+  border-color: #02140c;
+}
+
+.colum-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.info {
+  text-align: center;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+}
+
+.display {
+  display: flex;
+}
+
+.textDestacado {
+  background-color: rgb(238, 188, 247);
+}
+
+.textBold {
+  font-weight: 600;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+#productos h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: Roboto, sans-serif;
+  margin: 20px 0;
+}
+#productos .galeria {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#productos .galeria figure {
+  text-align: center;
+}
+#productos .galeria figure img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+#productos .galeria figure figcaption {
+  font-size: 1rem;
+  color: #b10808;
+  padding: 10px 0;
+  background-color: white;
+}
+#productos .galeria figure p.price {
+  color: rgba(190, 202, 16, 0.937254902);
+  padding-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+#productoss h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: Roboto, sans-serif;
+  margin: 20px 0;
+}
+#productoss .galeria {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#productoss .galeria figure {
+  text-align: center;
+}
+#productoss .galeria figure img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+#productoss .galeria figure figcaption {
+  font-size: 1rem;
+  color: #b10808;
+  padding: 10px 0;
+  background-color: white;
+}
+#productoss .galeria figure p.price {
+  color: rgba(190, 202, 16, 0.937254902);
+  padding-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+figure {
+  max-width: 60%;
+  background-color: white;
+  border-radius: 20px;
+}
+figure img {
+  width: 100%;
+}
+
+.all-productos {
+  display: flex;
+}
+
+iframe {
+  border-radius: 25px;
+}
+
+.all-productos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+@media (max-width: 680px) {
+  .productos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 1280px) {
+  .imagenes-body {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+.container {
+  position: relative;
+  width: 560px;
+  margin: 0 auto;
+  padding: 0;
+  height: auto;
+}
+
+/*	--------------------------------------------------
+      :: Multi Column
+      -------------------------------------------------- */
+.newsletter-multi-column {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+}
+.newsletter-multi-column .column-full {
+  width: 500px;
+}
+.newsletter-multi-column .column-half {
+  width: 245px;
+}
+.newsletter-multi-column .column-one-third {
+  width: 160px;
+}
+.newsletter-multi-column .column-fouth {
+  width: 117.5px;
+}
+.newsletter-multi-column .column-fifth {
+  width: 92px;
+}
+.newsletter-multi-column .column-sixth {
+  width: 75px;
+}
+.newsletter-multi-column .column-full,
+.newsletter-multi-column .column-half,
+.newsletter-multi-column .column-one-third,
+.newsletter-multi-column .column-fourth,
+.newsletter-multi-column .column-fifth,
+.newsletter-multi-column .column-sixth {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/*	--------------------------------------------------
+      :: Top Bar
+      -------------------------------------------------- */
+.top-form-bar {
+  height: 5px;
+  overflow: hidden;
+  width: 100%;
+  margin: 15px auto 0 auto;
+}
+.top-form-bar .top-bar {
+  height: 100%;
+  float: left;
+}
+
+.top-bar-red {
+  background-color: rgba(221, 10, 10, 0.8470588235);
+  width: 100%;
+}
+
+/*	--------------------------------------------------
+      :: Form Header
+      -------------------------------------------------- */
+.newsletter-form .header {
+  padding: 30px 25px;
+  text-align: right;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e5e5e5;
+}
+.newsletter-form .header h4 {
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: #777;
+  margin: 0;
+  padding: 0;
+}
+.newsletter-form .header i {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #777;
+  margin-right: 10px;
+  vertical-align: baseline;
+}
+
+/*	--------------------------------------------------
+      :: Form Section
+      -------------------------------------------------- */
+.newsletter-form .section {
+  padding: 30px 25px;
+  background-color: #f9f9f9;
+}
+.newsletter-form .section .input-group {
+  position: relative;
+  display: block;
+}
+.newsletter-form .section .input-group input[type=text],
+.newsletter-form .section .input-group input[type=email] {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  font-family: "Open Sans";
+  font-size: 13px;
+  color: #999;
+  box-shadow: none;
+  font-style: normal;
+  font-weight: normal;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.newsletter-form .section .input-group input[type=text],
+.newsletter-form .section .input-group input[type=email] {
+  width: 100%;
+}
+.newsletter-form .section .input-group input[type=text]:focus,
+.newsletter-form .section .input-group input[type=email]:focus {
+  border-color: #bbb;
+  color: #333;
+  outline: none;
+}
+.newsletter-form .section .input-group label i {
+  position: absolute;
+  cursor: pointer;
+  top: 13px;
+  right: 20px;
+  display: block;
+  color: #aaa;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+.newsletter-form .section fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.newsletter-form .section button {
+  float: right;
+  margin: 0 0 0 5px;
+}
+.newsletter-form .section #loader {
+  background-image: url(../Images/loader.gif);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  margin-top: 14px;
+  margin-left: 230px;
+  width: 16px;
+  height: 16px;
+  display: none;
+}
+
+.newsletter-error-message {
+  display: block;
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 13px;
+  background-color: #e0635b;
+  border: 1px solid #c14b44;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  padding: 8px 20px;
+  margin: 0 0 10px 0;
+  color: #fff;
+  line-height: 18px;
+  -webkit-font-smoothing: antialiased;
+}
+.newsletter-error-message a {
+  display: block;
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.newsletter-success-message {
+  display: block;
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 13px;
+  background-color: #96aa39;
+  border: 1px solid #7b8b2f;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  padding: 8px 20px;
+  margin: 0 0 10px 0;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+#newsletter-message {
+  margin: 0;
+  padding: 0;
+}
+
+/*	--------------------------------------------------
+      :: Button Container & Sizes
+      -------------------------------------------------- */
+button .button-large {
+  padding: 15px 30px 14px 30px;
+  margin: 0 0 5px 0;
+}
+button .button-large i {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #fff;
+  margin-right: 10px;
+  vertical-align: baseline;
+}
+button .button-normal {
+  padding: 13px 25px 12px 25px;
+  margin: 0 0 5px 0;
+}
+button .button-normal i {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #fff;
+  margin-right: 10px;
+  vertical-align: baseline;
+}
+button .button-small {
+  padding: 11px 20px 10px 20px;
+  margin: 0 0 5px 0;
+}
+button .button-small i {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #fff;
+  margin-right: 10px;
+  vertical-align: baseline;
+}
+button .button-mini {
+  padding: 9px 15px 8px 15px;
+  margin: 0 0 5px 0;
+}
+button .button-mini i {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #fff;
+  margin-right: 10px;
+  vertical-align: baseline;
+}
+
+/*	--------------------------------------------------
+      :: Button Configuration
+      -------------------------------------------------- */
+.button {
+  display: inline-block;
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Open Sans";
+  font-size: 14px;
+  margin: 0;
+  color: #fff;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+/*	--------------------------------------------------
+      :: Button Blue
+      -------------------------------------------------- */
+.button-blue {
+  background-color: #618da1;
+  border-bottom: 1px solid #447085;
+}
+.button-blue :hover {
+  background-color: #5b879a;
+  border-bottom: 1px solid #447085;
+}
+.button-blue :active {
+  background-color: #618da1;
+  border-bottom: 1px solid #447085;
+}
+
+/*	--------------------------------------------------
+      :: Button Red
+      -------------------------------------------------- */
+.button-red {
+  background-color: #5c0600;
+  border-bottom: 1px solid #e4291f;
+  border-radius: 5px;
+}
+.button-red :hover {
+  background-color: #ec4545;
+  border-bottom: 1px solid #c14b44;
+}
+.button-red :active {
+  background-color: #990800;
+  border-bottom: 1px solid #c14b44;
+}
+
+/*	--------------------------------------------------
+          :: Button Green
+          -------------------------------------------------- */
+.button-green {
+  background-color: #637900;
+  border-bottom: 1px solid #9fb33f;
+  border-radius: 5px;
+}
+.button-green :hover {
+  background-color: #95aa2c;
+  border-bottom: 1px solid #7b8b2f;
+}
+.button-green :active {
+  background-color: #62750b;
+  border-bottom: 1px solid #7b8b2f;
+}
+
+/*	--------------------------------------------------
+          :: Button Orange
+          -------------------------------------------------- */
+.button-orange {
+  background-color: #de5f41;
+  border-bottom: 1px solid #be4527;
+}
+.button-orange :hover {
+  background-color: #d45639;
+  border-bottom: 1px solid #be4527;
+}
+.button-orange :active {
+  background-color: #de5f41;
+  border-bottom: 1px solid #be4527;
+}
+
+/*	--------------------------------------------------
+      :: Note: Design for a width of 768px
+      -------------------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .container {
+    width: 560px;
+  }
+}
+/*	--------------------------------------------------
+      :: Note: Design for a width of 480px
+      -------------------------------------------------- */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 420px;
+  }
+  .newsletter-multi-column .column-full,
+.newsletter-multi-column .column-half,
+.newsletter-multi-column .column-one-third,
+.newsletter-multi-column .column-fouth,
+.newsletter-multi-column .column-fifth,
+.newsletter-multi-column .column-sixth {
+    width: 360px;
+  }
+  .newsletter-form .section button {
+    float: none;
+    margin: 0 5px 0 0;
+  }
+}
+/*	--------------------------------------------------
+      :: Note: Design for a width of 320px
+      -------------------------------------------------- */
+@media only screen and (max-width: 479px) {
+  .container {
+    width: 300px;
+  }
+  .newsletter-multi-column .column-full,
+.newsletter-multi-column .column-half,
+.newsletter-multi-column .column-one-third,
+.newsletter-multi-column .column-fouth,
+.newsletter-multi-column .column-fifth,
+.newsletter-multi-column .column-sixth {
+    width: 240px;
+  }
+  .newsletter-form .section button {
+    float: none;
+    margin: 0 5px 0 0;
+  }
+}
+.pie {
+  text-align: center;
+  padding: 6px 20px;
+}
+.pie img {
+  width: 50px;
+  height: 50px;
+}/*# sourceMappingURL=main.css.map */

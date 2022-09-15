@@ -1,0 +1,144 @@
+// vars esquema de color
+$mainColor: rgb(238,188,247);
+$bodyColor: #f7f6f5;
+$secondaryColor: rgb(88, 0, 0);
+$keyColor: deeppink;
+body {
+    /* background-image: url(../img/fondo__.jpg);  */
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-color: $bodyColor;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    color: $secondaryColor;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: $secondaryColor;
+    font-size: 1rem;
+    text-align: center;
+    background-color: rgba(167, 164, 164, 0.103);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h3 {
+    color: $secondaryColor;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    color: $secondaryColor;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.bg-nav{
+    background-color: #faecdb;
+}
+.p-clas {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #b10808;
+}
+
+.main-ajuste {
+    padding: 30px;
+    margin: 35px;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.img-logo-nav {
+    width: 100px;
+    height: auto;
+    padding: 14px;
+    border-radius: 100px
+}
+
+.imagenes-body {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.a-itemscenter {
+    align-items: center;
+}
+
+.flex-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.display {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gradient_ {
+    background-image: linear-gradient(to top, #a10000, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 4px;
+    transition: all 2s;
+    margin-top: 10px;
+}
+
+.gradient-nav {
+    height: 20px;
+    background-image: linear-gradient(to top, #a03737, rgb(199, 101, 101));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 20px;
+    border-radius: 5px;
+    transition: all 2s;
+    padding: 20px;
+
+}
+
+
+.dis-flex {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 5px;
+}
+
+.btn-login {
+    color: #770e0a;
+    border-color: #02140c;
+}
+
+.colum-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.info {
+    text-align: center;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+}
+.display {
+    display: flex;
+}
