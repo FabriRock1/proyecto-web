@@ -1,0 +1,37 @@
+@mixin flex($dire, $justify, $align, $wrap){
+    display: flex;
+    flex-direction: $dire;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+}
+
+@mixin textos($size,$interlineado,$color,$align){
+    font-size: $size;
+    line-height: $interlineado;
+    color:$color;
+    margin: 10px 30px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    @if $align== center{text-align: center}
+    @if $align == left{text-align: left}
+    @if $align == right{text-align: right}
+}
+
+@mixin medias($breakpoint){
+    @if $breakpoint == mobile{
+        @media (min-width:480px){
+            @content;
+        }
+    }
+    @if $breakpoint == tablet{
+        @media (min-width:600px){
+            @content;
+        }
+    }
+    @if $breakpoint == desktop{
+        @media (min-width:1200px){
+            @content;
+        }
+    }
+}

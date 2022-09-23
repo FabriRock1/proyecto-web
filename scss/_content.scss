@@ -13,9 +13,7 @@
     .galeria {
         margin: 20px;
         display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        flex-wrap: wrap;
+        @include flex (row, space-around, normal, wrap);
 
         figure {
             text-align: center;
@@ -55,10 +53,7 @@
 
     .galeria {
         margin: 20px;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        flex-wrap: wrap;
+        @include flex(row, space-around, normal, wrap);
 
         figure {
             text-align: center;
@@ -86,6 +81,7 @@
 }
 
 
+
 .productos-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -103,9 +99,6 @@ figure {
     }
 }
 
-.all-productos {
-    display: flex;
-}
 
 iframe {
     border-radius: 25px;
@@ -122,17 +115,13 @@ iframe {
 
 @media (max-width: 680px) {
     .productos-grid {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        @include flex(normal, center, normal, wrap);
     }
 }
 
 @media (max-width: 1280px) {
     .imagenes-body {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
+        @include flex(normal, space-around, normal, wrap);
         gap: 1rem;
     }
 }
