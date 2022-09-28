@@ -8,16 +8,17 @@ body {
 }
 h1 {
     color: $secondaryColor;
-    font-size: 1rem;
-    font-family: $secondaryFont;
+    font-size: 2rem;
+    font-family: $h1font;
     text-align: center;
+    background-color: white;
 }
 
 h2 {
     color: $secondaryColor;
     font-size: 1rem;
     text-align: center;
-    background-color: rgba(167, 164, 164, 0.103);
+    background-color: white;
     font-family: $secondaryFont;
 
 }

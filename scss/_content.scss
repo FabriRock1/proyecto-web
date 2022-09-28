@@ -12,7 +12,7 @@
 
     .galeria {
         margin: 20px;
-        display: flex;
+       gap: 2rem; 
         @include flex (row, space-around, normal, wrap);
 
         figure {
@@ -54,7 +54,7 @@
     .galeria {
         margin: 20px;
         @include flex(row, space-around, normal, wrap);
-
+        gap: 2rem;
         figure {
             text-align: center;
 
@@ -87,10 +87,11 @@
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    gap: 2rem;
 }
 
 figure {
-    max-width: 60%;
+    max-width: 100%;
     background-color: white;
     border-radius: 20px;
 
@@ -245,7 +246,7 @@ iframe {
 .newsletter-form {
 
     .section {
-        padding: 30px 25px;
+        padding: 0px 25px;
         background-color: #f9f9f9;
 
         .input-group {
