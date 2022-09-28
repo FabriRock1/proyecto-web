@@ -150,6 +150,11 @@ h4 {
   display: flex;
 }
 
+.logologin {
+  padding: 25px;
+  color: #a03737;
+}
+
 #productos h2 {
   text-transform: uppercase;
   font-size: 1rem;
