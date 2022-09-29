@@ -15,6 +15,30 @@
   text-align: left;
 }
 
+.body404 {
+  background-image: url(../img/eror.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-color: #f7f6f5;
+}
+
+.display-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.h11 {
+  color: rgb(88, 0, 0);
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  background-color: white;
+  margin: 100px;
+}
+
 body {
   /* background-image: url(../img/fondo__.jpg);  */
   background-repeat: repeat;
@@ -428,7 +452,6 @@ iframe {
   border: 0;
 }
 .newsletter-form .section button {
-  float: right;
   margin: 0 0 0 5px;
 }
 .newsletter-form .section #loader {

@@ -8,6 +8,8 @@ Kushina-Pasteleria es un sitio de venta electrónico ficticio para la venta de d
 Deploy:
 
 Visualiza el proyecto aquí https://fabrirock1.github.io/proyecto-web/
+                           https://kushina-pasteleria.netlify.app
+                           https://kushina-pasteleria.000webhostapp.com/
 
 Objetivo:
 
@@ -34,11 +36,11 @@ Dependencias
 
 Versionado
 GitHub
+Anotaciones:
+
+Los botones de "enviar"  de la pagina de contacto la van a mandar a una pagina "error 404".
+El resto de los botones todos funcionan.
 
 Autor
 Desarrollado por Montiel Fabrizio
 
-Anotaciones:
-
-Los botones de "enviar" y "reset" de la pagina de contacto te van a madar a una pagina "error 404".
-El resto de los botones todos funcionan.
