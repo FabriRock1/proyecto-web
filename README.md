@@ -40,6 +40,7 @@ Anotaciones:
 
 Los botones de "enviar"  de la pagina de contacto la van a mandar a una pagina "error 404".
 El resto de los botones todos funcionan.
+las modificaciones y todo lo entregable esta en la rama bootstrap
 
 Autor
 Desarrollado por Montiel Fabrizio
